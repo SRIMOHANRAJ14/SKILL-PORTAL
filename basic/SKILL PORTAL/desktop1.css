@@ -1,0 +1,666 @@
+.frame-child10 {
+  height: 63px;
+  width: 1528px;
+  position: relative;
+  background-color: var(--color-fuchsia);
+  display: none;
+  max-width: 100%;
+}
+.skill-selection-button,
+.student-dashboard1 {
+  position: relative;
+  font-weight: 600;
+  white-space: nowrap;
+  z-index: 1;
+}
+.student-dashboard1 {
+  cursor: pointer;
+}
+.skill-selection-button {
+  align-self: stretch;
+}
+.profile-options {
+  width: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.skill-selection {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.profile-options1 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.frame-wrapper1,
+.profile-options1,
+.student-dashboard-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.student-dashboard-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.frame-wrapper1 {
+  width: 527px;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logout1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+  display: inline-block;
+  min-width: 65px;
+  cursor: pointer;
+  z-index: 1;
+}
+.logout-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+}
+.naveenkumar-p2 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 900;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.mask-group-icon {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.frame-parent8,
+.rectangle-parent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent8 {
+  justify-content: flex-start;
+  gap: 23.5px;
+  font-size: var(--font-size-mini);
+}
+.rectangle-parent6 {
+  align-self: stretch;
+  background-color: var(--color-fuchsia);
+  justify-content: space-between;
+  padding: var(--padding-2xs) var(--padding-24xl) var(--padding-xs)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.skill-selection-options-child {
+  width: 650px;
+  height: 776px;
+  position: relative;
+  box-shadow: 15px 4px 30px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-violet);
+  display: none;
+  max-width: 100%;
+}
+.dayskill2 {
+  text-decoration: none;
+  width: 202px;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.time-slot-selection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-sm);
+}
+.skill-choice {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.skill-name-input-child {
+  align-self: stretch;
+  width: 360px;
+  position: relative;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.java1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 55px;
+  z-index: 2;
+}
+.skill-name-input {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 120px;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child11 {
+  height: 67px;
+  width: 176px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-black);
+  display: none;
+}
+.enter {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 2;
+}
+.rectangle-parent7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) 47px var(--padding-lg) 50px;
+  background-color: var(--color-black);
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.rectangle-parent7:hover {
+  background-color: var(--color-darkslategray-200);
+}
+.skill-choice-input,
+.skill-information {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skill-information {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  min-width: 234px;
+}
+.skill-choice-input {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.frame-child12 {
+  align-self: stretch;
+  height: 431px;
+  position: relative;
+  background-color: var(--color-lavender);
+  display: none;
+}
+.skill-information-header-child {
+  height: 53px;
+  width: 532px;
+  position: relative;
+  background-color: var(--color-fuchsia);
+  display: none;
+  max-width: 100%;
+}
+.information-about-skills {
+  position: relative;
+  font-weight: 600;
+  z-index: 3;
+}
+.skill-information-header {
+  align-self: stretch;
+  background-color: var(--color-fuchsia);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 2;
+}
+.java-is-a {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.youtube-link {
+  margin: 0;
+}
+.youtube-link-container {
+  width: 487px;
+  position: relative;
+  display: inline-block;
+  max-height: 96px;
+  word-break: break-word;
+  z-index: 2;
+}
+.skill-description,
+.skill-description-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.skill-description-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 71px;
+}
+.skill-description {
+  width: 505px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.rectangle-parent8,
+.skill-selection-options,
+.skill-type-selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent8 {
+  align-self: stretch;
+  background-color: var(--color-lavender);
+  align-items: flex-end;
+  padding: 0 0 93px;
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  z-index: 1;
+  color: var(--color-white);
+}
+.skill-selection-options,
+.skill-type-selection {
+  align-items: flex-start;
+}
+.skill-type-selection {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-5xl);
+}
+.skill-selection-options {
+  flex: 1;
+  box-shadow: 15px 4px 30px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-violet);
+  padding: var(--padding-10xl) var(--padding-40xl) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: 94px;
+  min-width: 422px;
+}
+.night-skill2 {
+  width: 201px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.night-skill-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-30xl);
+}
+.select-skill {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 123px;
+  z-index: 2;
+}
+.rectangle-parent9 {
+  align-self: stretch;
+  border-radius: var(--br-56xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 101px;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-black);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.enter1 {
+  position: absolute;
+  top: 20px;
+  left: 48px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 2;
+}
+.rectangle-parent10 {
+  width: 176px;
+  height: 67px;
+  position: relative;
+  color: var(--color-white);
+}
+.frame-child15 {
+  height: 431px;
+  width: 532px;
+  position: relative;
+  background-color: var(--color-lavender);
+  display: none;
+  max-width: 100%;
+}
+.rectangle-parent11,
+.rectangle-parent12,
+.skill-selection-options1 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent12 {
+  flex: 1;
+  background-color: var(--color-fuchsia);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-xl);
+  z-index: 2;
+}
+.rectangle-parent11,
+.skill-selection-options1 {
+  justify-content: flex-start;
+}
+.rectangle-parent11 {
+  align-self: stretch;
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: 0 0 378px;
+  z-index: 1;
+  color: var(--color-white);
+}
+.skill-selection-options1 {
+  flex: 1;
+  box-shadow: 15px 4px 30px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-violet);
+  flex-direction: column;
+  padding: var(--padding-18xl) var(--padding-40xl) var(--padding-6xl);
+  gap: 86px;
+  min-width: 422px;
+}
+.skill-selection-options-parent {
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 64px;
+}
+.frame-main,
+.frame-section,
+.skill-selection-options-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-section {
+  width: 1494px;
+  flex-direction: row;
+  padding: 0 var(--padding-46xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.frame-main {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.footer-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -10px;
+  left: 0;
+  background-color: var(--color-darkslategray-100);
+}
+.bannari-amman-institute1 {
+  display: inline-block;
+  max-width: 100%;
+}
+.all-rights-reserved1,
+.bannari-amman-institute1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.desktop-4,
+.footer-background-parent {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.footer-background-parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-4xl) var(--padding-64xl) var(--padding-xs)
+    var(--padding-29xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.desktop-4 {
+  width: 100%;
+  background-color: var(--color-mistyrose-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frame-section {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .student-dashboard-parent {
+    display: none;
+  }
+  .frame-wrapper1 {
+    width: 0;
+  }
+  .dayskill2 {
+    font-size: var(--font-size-5xl);
+  }
+  .skill-selection-options {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .night-skill2 {
+    font-size: var(--font-size-5xl);
+  }
+  .skill-selection-options1 {
+    padding-top: var(--padding-5xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footer-background-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent6 {
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .skill-choice-input {
+    gap: var(--gap-xl);
+    flex-wrap: wrap;
+  }
+  .skill-description-content {
+    gap: 35px;
+  }
+  .skill-type-selection {
+    gap: var(--gap-base);
+  }
+  .skill-selection-options,
+  .skill-selection-options1 {
+    gap: var(--gap-28xl);
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .skill-selection-options1 {
+    gap: var(--gap-24xl);
+  }
+  .skill-selection-options-parent {
+    gap: var(--gap-13xl);
+  }
+  .footer-background-parent {
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dayskill2 {
+    font-size: var(--font-size-lg);
+  }
+  .java1,
+  .skill-choice {
+    font-size: var(--font-size-lgi);
+  }
+  .skill-name-input {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .enter {
+    font-size: var(--font-size-lgi);
+  }
+  .skill-information {
+    gap: var(--gap-base);
+  }
+  .information-about-skills {
+    font-size: var(--font-size-lgi);
+  }
+  .java-is-a,
+  .youtube-link-container {
+    font-size: var(--font-size-base);
+  }
+  .rectangle-parent8 {
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  .skill-selection-options {
+    gap: var(--gap-4xl);
+  }
+  .night-skill2 {
+    font-size: var(--font-size-lg);
+  }
+  .night-skill-container {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .select-skill {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent9 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .enter1 {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangle-parent11 {
+    padding-bottom: 246px;
+    box-sizing: border-box;
+  }
+  .skill-selection-options1 {
+    gap: var(--gap-2xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .skill-selection-options-parent {
+    gap: var(--gap-base);
+  }
+  .all-rights-reserved1,
+  .bannari-amman-institute1 {
+    font-size: var(--font-size-base);
+  }
+  .desktop-4 {
+    gap: var(--gap-lgi);
+  }
+}

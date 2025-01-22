@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Avenir:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-4">
+      <main class="frame-main">
+        <header class="rectangle-parent6">
+          <div class="frame-child10"></div>
+          <div class="frame-wrapper1">
+            <div class="student-dashboard-parent">
+              <div class="student-dashboard1" id="studentDashboardText">
+                Student dashboard
+              </div>
+              <div class="profile-options">
+                <div class="skill-selection-button">&gt;</div>
+              </div>
+              <div class="profile-options1">
+                <a class="skill-selection">Skill selection</a>
+              </div>
+            </div>
+          </div>
+          <div class="frame-parent8">
+            <div class="logout-wrapper">
+              <a class="logout1" id="lOGOUTText">LOGOUT</a>
+            </div>
+            <div class="logout-wrapper">
+              <a class="naveenkumar-p2">NAVEENKUMAR P</a>
+            </div>
+            <img
+              class="mask-group-icon"
+              loading="lazy"
+              alt=""
+              src="./public/mask-group.svg"
+            />
+          </div>
+        </header>
+        <section class="frame-section">
+          <div class="skill-selection-options-parent">
+            <div class="skill-selection-options">
+              <div class="skill-selection-options-child"></div>
+              <div class="time-slot-selection">
+                <a class="dayskill2">DAYSKILL</a>
+              </div>
+              <div class="skill-type-selection">
+                <div class="skill-choice-input">
+                  <div class="skill-choice">Skill choice</div>
+                  <div class="skill-information">
+                    <div class="skill-name-input">
+                      <div class="skill-name-input-child"></div>
+                      <div class="java1">Java</div>
+                    </div>
+                    <button class="rectangle-parent7">
+                      <div class="frame-child11"></div>
+                      <div class="enter">ENTER</div>
+                    </button>
+                  </div>
+                </div>
+                <div class="rectangle-parent8">
+                  <div class="frame-child12"></div>
+                  <div class="skill-information-header">
+                    <div class="skill-information-header-child"></div>
+                    <div class="information-about-skills">
+                      Information about skills
+                    </div>
+                  </div>
+                  <div class="skill-description">
+                    <div class="skill-description-content">
+                      <div class="java-is-a">
+                        Java is a widely-used programming language known for its
+                        platform independence, strong typing, and extensive
+                        standard library for building robust applications.
+                      </div>
+                      <div class="youtube-link-container">
+                        <p class="youtube-link">Youtube link :</p>
+                        <p class="youtube-link">&nbsp;</p>
+                        <p class="youtube-link">
+                          https://docs.google.com/document/d/1PH5DepdPkzkBGWN-y8LLBBHxpd6MqRptX8BaOjvajwI/edit
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-selection-options1">
+              <div class="skill-selection-options-child"></div>
+              <div class="night-skill-container">
+                <div class="night-skill2">NIGHT SKILL</div>
+              </div>
+              <div class="skill-type-selection">
+                <div class="skill-choice-input">
+                  <div class="skill-choice">Skill choice</div>
+                  <div class="skill-information">
+                    <div class="rectangle-parent9">
+                      <div class="skill-name-input-child"></div>
+                      <div class="select-skill">select skill</div>
+                    </div>
+                    <div class="rectangle-parent10">
+                      <div class="frame-child14" id="rectangle"></div>
+                      <div class="enter1">ENTER</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="rectangle-parent11">
+                  <div class="frame-child15"></div>
+                  <div class="rectangle-parent12">
+                    <div class="skill-information-header-child"></div>
+                    <div class="information-about-skills">
+                      Information about skills
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer-background-parent">
+        <div class="footer-background"></div>
+        <div class="bannari-amman-institute1">
+          BANNARI AMMAN INSTITUTE OF TECHNOLOGY SATHY
+        </div>
+        <div class="all-rights-reserved1">ALL RIGHTS RESERVED</div>
+      </footer>
+    </div>
+
+    <script>
+      var studentDashboardText = document.getElementById("studentDashboardText");
+      if (studentDashboardText) {
+        studentDashboardText.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
+        });
+      }
+      
+      var lOGOUTText = document.getElementById("lOGOUTText");
+      if (lOGOUTText) {
+        lOGOUTText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
+        });
+      }
+      </script>
+  </body>
+</html>
